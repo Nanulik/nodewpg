@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+<form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <input type="text" name="username" placeholder="username" size="30" maxlength="12">
+    <label>Please enter your username</label>
+    <fieldset>
+        <legend>User Form</legend>
+        <input type="text" name="password" placeholder="password" size="30" maxlength="8">
+        <label>Please enter your password</label>
+    </fieldset>
+    <hr>
+     <label><strong>Select your favorite superheroes!</strong></label>
+     <p>
+        A superhero is a type of heroic stock character, usually possessing supernatural or superhuman powers, 
+        <br>who is dedicated to fighting crime, protecting the public, and usually battling supervillains
+     </p>
+      <input type="radio" name="superheroes" >Supernan
+      <input type="radio" name="superheroes" >Batman
+      <input type="radio" name="superheroes" checked="checked" >Wonder Woman
+      <input type="radio" name="superheroes" >Flash
+      <input type="radio" name="superheroes" >Thor
+      <input type="radio" name="superheroes" >Hulk
+<hr>
+      <label><strong>Select your favorite video game</strong></label>
+      <br>
+      <input type="checkbox" name="videogames" value="Fifa" checked="checked"> Fifa
+      <br>
+      <input type="checkbox" name="videogames" value="NHL"> NHL
+      <br>
+      <input type="checkbox" name="videogames" value="Residen Evil "> Residen Evil 
+      <br>
+      <input type="checkbox" name="videogames" value="Uncharted" checked="checked">Uncharted
+      <br>
+      <input type="hidden" name="userid" value="2300">
+      <hr>
+      <input type="image" src="img\create_user_button.png">
+      <hr>
+      <input type="date" name="birthday" />
+      <input type="email" placeholder="Enter your Email" name="email" />
+      <input type="URL"  placeholder="Enter your site" name="my first site"/>
+      <input type="submit" value="Submit this form">
+    </form>  
+    <hr>
+    <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded">
+        <input type="search" placeholder="search" name="q"/>
+        <input type="submit" value="Search">
+    </form>
+<br><br>
+</body>
+
+</html>
+
+
