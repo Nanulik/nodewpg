@@ -1,0 +1,8 @@
+.georgia {
+    background-image: url(img/flag_map.jpg);
+    background-position-x: center;
+    background-position-y: 1px;
+    background-repeat: no-repeat;
+    background-size: 17%;
+    height: 120px;
+}
