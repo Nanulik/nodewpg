@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+        <br>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Georgia</a> |
+    <a href="recipes.html">Georgian Cuisine</a> |
+    <a href="form.html">Contact</a> 
+    <hr>
+    <br><br><br>
+    <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded">
+        <input type="search" placeholder="search" name="q"/>
+        <input type="submit" value="Search">
+    </form>
+    <hr>
+
+    <h2>Fill out the form to register</h2>
+    
+    <hr>
+<form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">       
+    <fieldset>
+       <input type="text" name="username"  required="required"  pattern="^[a-zA-Z]+$" placeholder="username" size="30" maxlength="12">
+       <label>Note: Username can only contain letters </label>
+       <br>
+        <legend>User Form</legend>
+        <input type="text" name="password"  required="required" pattern="\d+"  placeholder="password" size="30" maxlength="8">
+        <label>Note: Password can only contain numbers and can't be longer than 8 characters</label>
+    </fieldset>
+    
+    <hr>
+      <input type="image" src="img\contact_button.png" width="150" height="90">
+    <hr>
+    <fieldset>
+      <legend>User Information</legend>
+      <input type="date" name="birthday" />
+      <input type="email" required="required"  placeholder="Enter your Email" name="email" />
+      <input type="URL"  placeholder="Enter your site" name="my first site"/>
+      <input type="submit" value="Submit this form">
+    </fieldset>
+    </form>  
+    <hr>
+    <br>
+    
+<br><br>
+</body>
+
+</html>
+
+
