@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <style>
+                body {
+                    margin: 0 none;
+                    padding: 0 none;
+                }
+                form {
+                    background-color: #eee;
+                    padding: 10px 5px;
+                    text-align: right;
+                    border-bottom: 1px solid #ddd;
+                }
+                input[type="text"], input[type="password"], button {
+                    display: inline-block;
+                    padding: 10px;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                    outline: none;
+                }
+                input[type="text"]:focus {
+                    border: 1px solid #EC578B;
+                    box-shadow: 0 6px 6px -6px #777;
+                }
+                input[type="password"]:focus {
+                    border: 1px solid #EC578B;
+                    box-shadow: 0 6px 6px -6px #777;
+                }
+                button:focus {
+                    background-color: #EC576B;
+                    color: white;
+                    margin-right: 0 ;
+                }
+                button:hover {
+                    background-color: rgb(240,50,76);
+                    color:white;
+                    cursor: pointer;
+        
+                }
+            </style>
+  <title>Learing CSS</title>
+</head>
+<body>
+  <form>
+      <input type="text" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <button type='submit'>Submit</button>
+  </form>
+</body>
+</html>
