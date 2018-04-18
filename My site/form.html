@@ -4,48 +4,111 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Contact Form</title>
+        <title>Contact</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-            <header>
-            <a href="index.html">Home</a> 
-            <a href="about.html">About Georgia</a> 
-            <a href="recipes.html">Georgian Cuisine</a> 
-            <a href="form.html">Contact</a> 
-            </header>
-        
-        <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded">
-            <input type="search" placeholder="search" name="q"/>
-            <input type="submit" value="Search">
-        </form>
-             <h2>Fill out the form to register</h2>
-        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">       
-        <fieldset>
-            <input type="text" name="username"  required="required"  pattern="^[a-zA-Z]+$" placeholder="username" size="30" maxlength="12">
-            <label>Note: Username can only contain letters </label>
-            <br>
-            <legend>User Form</legend>
-            <input type="text" name="password"  required="required" pattern="\d+"  placeholder="password" size="30" maxlength="8">
-            <label>Note: Password can only contain numbers and can't be longer than 8 characters</label>
-        </fieldset>
-            <input type="image" src="img\contact_button.png" width="150" height="90">
-  
-        <fieldset>
-            <legend>User Information</legend>
-            <input type="date" name="birthday" />
-            <input type="email" required="required"  placeholder="Enter your Email" name="email" />
-            <input type="URL"  placeholder="Enter your site" name="my first site"/>
-            <input type="submit" value="Submit this form">
-        </fieldset>
-        </form>  
-        <footer>
-            <h4> All rights reserved to Nana Graff 2018</h4>
-        </footer>  
-
-    </body>
-
+    <style>
+        body {
+            background-image: url(img/view4.jpg);
+            background-size: cover;
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+        form {
+            background-color:#f0eff6;
+            border: 1px solid #c3ddee;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            width: 568px; 
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            color: #044058;
+            }
+        h1 {
+            margin: none;
+            margin-bottom: 16px;
+            font-family: Apple Chancery, cursive;
+            }
+        fieldset {
+            border: none;
+            padding: none;
+            margin-bottom: 10px;
+            margin-right: none;
+            margin-left: none;
+        }
+        fieldset label {
+            display: inline-block;
+            width: 80px;
+            padding-right: 20px;
+        }
+        input[type="text"], input[type="password"], textarea
+        {
+            display: inline-block;
+            width: 417px;
+            padding: 0.5em;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            color: gray;
+            outline-color: #4d582b;
+        }
+        textarea {
+            vertical-align: middle;
+        }
+        input[type="submit"] {
+            display: block;
+            padding: 19px 39px 18px 39px;
+            color: white; 
+            background-color:#b5d0e1;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            border: 1px solid #b5d0e1;
+        }
+        fieldset:last-child {
+            margin-top: 40px;
+        }
+    </style>
+  <title>Learing CSS</title>
+</head>
+<body>
+        <header>
+                <a href="index.html">Home</a> 
+                <a href="about.html">About Georgia</a> 
+                <a href="recipes.html">Georgian Cuisine</a> 
+                <a href="form.html">Contact</a> 
+                </header>
+  <form>
+    <h1>Register for New Recipes</h1>
+    <fieldset>
+        <label>Username:</label>
+        <input type="text" name="username">
+    </fieldset>
+    <fieldset>
+        <label>Password:</label>
+        <input type="password" name="password">
+    </fieldset>
+    <fieldset>
+        <label>Email:</label>
+        <input type="text" name="email">
+    </fieldset>
+    <fieldset>
+        <label>Type:</label>
+        <input type="text" name="type">
+    </fieldset>
+    <fieldset>
+        <label>Notes:</label>
+        <textarea name="notes"></textarea>
+    </fieldset>
+    <fieldset>
+      <input type="submit" value="Register">
+    </fieldset>
+  </form>
+  <footer>
+        <h4> All rights reserved to Nana Graff 2018</h4>
+    </footer>  
+</body>
 </html>
-
-

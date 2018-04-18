@@ -1,0 +1,45 @@
+         
+            body {
+                background-image: url(img/view3.jpg);
+                background-size: cover;
+                height: 100%;
+                background-repeat: no-repeat;
+            }
+            #box {
+                background-color: #c9d8e0;
+                width: 550px;
+                border: 5px solid  whitesmoke;
+                padding: 55px 100px ;
+                margin: 55px auto;
+            }
+            img {
+                border: 2px solid #ddd;
+                border-radius: 20px;
+                padding: 5px;
+                width: 50%;
+            }
+            p {
+                font-size: 20px;
+                font-family: cGeorgia, serif;
+                padding: 10px 0px;
+                margin: auto; 
+            }
+            h1, h2, h3 {
+                font-size: 30px;
+                font-family: Apple Chancery, cursive;
+            }
+            .type_list{
+                background: #d3e6db;
+                border: 0px solid #5d6748;
+                border-radius: 3px;
+                padding: 20px;
+                white-space: normal;
+                line-height: 1.5;
+            }
+            .list::first-line {
+                font-weight: bold;
+            }
+            p >.preparation {
+                padding: 10px 20px;
+                margin: 10px 16px;
+            }
