@@ -1,0 +1,135 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='css/style.css')
+  title Home
+#sidebar
+  .toggle-btn(onclick='toggleSidbar()')
+    span
+    span
+    span
+  div
+    ul
+      li
+        a.bar-item.button(href='#main') Home
+      li
+        a.bar-item.button(href='#bul') Bulletin
+      li
+        a.bar-item.button(href='#hm') Home Work
+      li
+        a.bar-item.button(href='#upeve') Upcomong events
+      li
+        a(href='#med') Media
+      li
+        a(href='mailto:nanabgraff@gmail.com') Send Email
+      li
+        a.calendar(href='https://files.acrobat.com/a/preview/2bfda638-515c-48f0-9a60-cfc1ad38ccab' target='_blank')  School calendar
+    
+      li
+        a.bar-item.button(href='/contactus') Contact
+#main.mainpage
+  img.mainimg(src='img/mainimg.jpg' alt='mainimage')
+  h1.head  PARENT PORTAL
+p.par
+  | &quot;Education is the most powerful weapon which   you can use to change the world&quot;. Nelson Mandela
+h2#bul  Bulletins
+.firstblock
+  .text_wrap_right
+    h3 Good day parents,
+    |                         This week, our students had so much fun in class. We learned many new facts about different animals and expanded our vocabulary.
+    |                         Our student shared stories about what they did on the weekend with their parents. We made lots of crafts, learned about spring and the animals that appear during the season and learned many new songs related to spring. Please visit the following links and have your kids sing with you.
+    .songlinks
+      ul
+        li
+          a(href='https://www.youtube.com/watch?v=_Cn0bE_ZOzk') Springtime Sunshine
+        li
+          a(href='https://www.youtube.com/watch?v=A16Cu6Ic1pA') Spring Song for Children - &quot;Springtime&quot;
+        li
+          a(href='https://www.youtube.com/watch?v=DobrRgD5aOU') Spring is Here with Lyrics 
+        li
+          a(href='https://www.youtube.com/watch?v=twH5fXRZ9RE') April-Month of the Year Song 
+        li
+          a(href='https://www.youtube.com/watch?v=zxVDkNp8fpk&t=27s') 5 Spring Flowers 
+        li
+          a(href='https://www.youtube.com/watch?v=_-gNaNOWdg8') Hungry Caterpillar with Lyrics
+    |                         We read many books on friendship, kindness and appropriate classroom behavior. These include: &ldquo;How to be a friend&rdquo; by Laurie Krasny Brown and Mark Brown, &ldquo;I Just Want To Do It My Way!&rdquo; by Julia Cook, &ldquo;But It&rsquo;s Not My Fault&rdquo; by Julia Cook, &ldquo;I Can&rsquo;t Believe You Said That!&rdquo; by Julia Cook, &ldquo; Mitzi&rsquo;s Mitzvah&rdquo; by Gloria Kosher.
+    |                         We learned the letter P and the letter B. We sang songs about each letter and learned about pigs and bees.
+    |                         We were lucky to go outside for recess this week. The kids had so much fun playing outside in the sunshine. We made bubbles, played with chalk, and climbed on the play structure.
+    |                         Have a wonderful weekend.
+h2#hm Home Work
+#secondblock
+  .text_wrap_right
+    h3 Week May, 07 to May, 11  
+    h4 Math
+    ul
+      li Read page 12-14 on workbook &quot;Number&amp;Counting&quot;
+      li Do exercise 10 to 15 on workbook &quot;subtraction&quot; 
+    ul
+      li Read page 12-14 on workbook &quot;Number&amp;Counting&quot;
+      li Do exercise 10 to 15 on workbook &quot;subtraction&quot; 
+    h4 Art
+    ul
+      li
+        a(href='https://files.acrobat.com/a/preview/1b309591-f231-4d87-8143-886addc4c187') Print and paint 
+      li
+        a(href='https://files.acrobat.com/a/preview/4e5b0e58-9fe1-4c2e-b8ac-016a2659d40a') Print and paint 
+      li
+        a(href='https://files.acrobat.com/a/preview/d12e6804-a9e3-4ce9-9980-6d3d45b07a12') Print and paint 
+    h4 Frenc
+    p
+      | Our themes this month are winter weather, activities and clothing. We sing about &quot;Bonhomme&quot; (snowman) and pretend to play hockey, ski, skate and build snow forts. Some new vocabulary includes &quot;un chapeau (hat),
+      | les mitaines (mitts), les bottes (boots) and manteau (coat)&quot;.
+h2#upeve
+  a(href='/event' style='text-decoration: none; color: black;') Up Coming Event
+#thirdblock
+  .text_wrap_right
+    h4 Band Concert
+    p Wednesday, June 6 at 6:30pm
+    h4 Casual Day for a Cause
+    p Thursday, June 7
+    h4 In-Service: No School
+    p Friday, June 8
+  button.buttons(onclick="location.href='/event'" type="button'") click here for details
+div
+  h2#med Media
+  .flex-container
+    .container
+      div
+        img.image(src='img/img1.jpg' alt='tree')
+        .overlay
+          .text Field trip to Pinawa
+    .container
+      div
+        img.image(src='img/img2.jpg' alt='kids')
+        .overlay
+          .text Field trip to Pinawa
+    .container
+      div
+        img.image(src='img/img3.jpg' alt='view')
+        .overlay
+          .text Field trip to Pinawa
+    .container
+      div
+        img.image(src='img/img4.jpg' alt='view2')
+        .overlay
+          .text Field trip to Pinawa
+    .container
+      div
+        img.image(src='img/img5.jpg' alt='falls')
+        .overlay
+          .text Field trip to Pinawa
+    .container
+      div
+        img.image(src='img/img6.jpg' alt='car')
+        .overlay
+          .text Field trip to Pinawa
+    .container
+      div
+        img.image(src='img/img7.jpg' alt='Caterpillar')
+        .overlay
+          .text Field trip to Pinawa
+script(src='js/script.js')
+footer.footer
+  | &copy;  Proudly created by Nana Graff 2018

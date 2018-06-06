@@ -1,0 +1,26 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='css/style.css')
+
+  title Sign in
+a(href='/home') Go to Home Page
+div.loginbox
+  h1.loginboxh Welcom to Parent Portal
+   p
+  | Parent Portal has been designed to improve home / school communication and to allow parents to take a more informed view of their children&apos;s progress at school.
+  | To log into the system you will need to have been issued with a password by the school. This could have been sent to you in an email or letter format. If you are unsure of your logon details please contact the school directly.
+
+div(class='bodylogin')
+form.login
+  h1.login-title Sign In #{testVar}
+  fieldset.login
+    label Username:
+    input.login-input(type='text' name='username')
+  fieldset.login
+    label Password:
+    input.login-input(type='password' name='password')
+  fieldset.login
+    input.login-button(type='submit' value='Login')

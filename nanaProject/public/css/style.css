@@ -1,0 +1,261 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+    margin-left: 215px;
+}
+/*sidebar design*/
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height:100%;
+    background-color:#628695;
+    left: -200px;
+    transition: all 500ms linear;
+    z-index: 1;
+}
+
+/*sidebar design list*/
+#sidebar ul li {
+    font-weight: bold;
+    display: block;
+    padding: 10px 0 ;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:  1px solid #f0f1f53d ;
+    color: #bec7cd;
+}
+#sidebar ul li a:hover {
+    color: #eee;
+    padding: 10px;
+}
+#sidebar ul li a {
+    color:#fdee84; 
+    text-decoration:none; 
+}
+#sidebar.active {
+    left:0px
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 200px;
+    top: -3px;
+}
+#sidebar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background:black;
+    margin: 3px 0px;
+ 
+}
+ .head {
+    text-align: center;
+    font-size: 45px;
+}
+.mainimg{
+    width: 90%;
+    border: 1px solid white;
+    padding: 1px;
+    display: block;
+    
+    margin-right: auto;
+}
+.par {
+    text-align: auto;
+    color: #9c2725;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    
+}
+
+
+div.songlinks ul {
+    list-style: none
+}
+.firstblock
+{
+    background-image: url(../img/firstblock.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 998px;
+    height: 415px;
+    border: 1px solid #fe5642;
+    object-fit: cover;
+    
+}
+#secondblock
+{
+    background-image: url(../img/homework.jpg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 998px;
+    height: 415px;
+    border: 1px solid #fe5642;
+    object-fit: cover;
+}
+#thirdblock
+{
+    background-image: url(../img/upcoming.jpg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 998px;
+    height: 275px;
+    border: 1px solid #fe5642;
+    object-fit: cover;
+}
+
+.text_wrap_right
+{
+    width: 700px;
+    height: 100%;
+    float: right;
+    background: white;
+    color: #030f11;
+    border-left: 2px solid #efefeb63;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3px;
+}
+/*media design*/
+.container {
+    position: relative;
+    width: 20%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#fffcef82;
+    overflow: hidden;
+    width: 148%;
+    height: 0;
+    transition: .5s ease;
+  }
+.container:hover .overlay {
+    height: 100%;
+  }
+.text {
+    white-space: nowrap; 
+    color: rgb(2, 10, 48);
+    font-size: 13px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  /*flexbox on media*/
+.flex-container {
+    display:flex;
+    justify-content:  flex-start;
+    background-color: white;
+    
+  }
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+  }
+.flex-container img {
+    border: 2px white solid;
+    width: 142%;
+    height: 100%;
+  }
+.footer {
+    padding: 24px 25px;
+    margin: 0px -36px;
+    background-color: #bec7cd;
+    margin-left: -215px;
+  }
+.buttons {
+    background-color: #e44b3b;
+    color: white;
+    padding: 1px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 250px 30px;
+}
+/*login page*/
+.login {
+    margin: 58px -25px;
+    width: 469px;
+    padding: 20px 23px;
+    background: white;
+    border: 2px solid #9e9e9e14;
+  }
+  
+h1.login-title {
+    margin: -21px -24px 19px;
+    padding: 29px 24px;
+    line-height: 43px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    background:#00bcd482;
+   
+  }
+  
+.login-input {
+    width: 285px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left:10px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+.login-input:focus {
+      border-color:#6e8095;
+      outline: none;
+    }
+.login-button {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #f0776c;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer; 
+    outline:0;
+  }
+.loginbox {
+    margin: 25px -177px;
+    width: 400px;
+    padding: -1px 210px;
+    background: white;
+    border: 0px solid #9e9e9e14;
+    inline-size: 850px;
+    font-family: cursive;
+    line-height: 1.6;
+    font-size: 17px;
+   
+}
+.loginboxh {
+    color:  #1b7ba0;
+}
